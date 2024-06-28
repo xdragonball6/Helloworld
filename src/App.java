@@ -8,7 +8,6 @@ public class App {
     public static void main(String[] args) throws Exception {
         BoardItemDao boardItemDao = new BoardItemDaoimpl();
 
-
         
         List<Boarditem> boarditems = boardItemDao.selectAll();
         
